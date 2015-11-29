@@ -19,7 +19,23 @@ class Config {
     }
 
     get destination() {
-        return this._environment === 'development' ? './dev' : './dist';
+        return this._environment === 'development' ? this.dev : this.production;
+    }
+
+    get dev() {
+        return './dev';
+    }
+
+    get production() {
+        return './dist';
+    }
+
+    get documentation() {
+        return './doc';
+    }
+
+    get temp() {
+        return './tmp';
     }
 
 }

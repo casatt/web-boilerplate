@@ -1,11 +1,16 @@
 'use strict';
 
 let fs = require('fs'),
-    path = require('path');
+    path = require('path'),
+    pkg = require('../package.json');
 
 class Util {
 
     constructor() {
+    }
+
+    get pkg() {
+        return pkg;
     }
 
     fetchDirectories(dir) {

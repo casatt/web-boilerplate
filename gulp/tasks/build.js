@@ -10,5 +10,6 @@ gulp.task('build', (cb) => {
         ['scripts', 'scss', 'html'],
         ['doc'],
         ['compress', 'serve'],
+        'clean:post',
         cb);
 });
