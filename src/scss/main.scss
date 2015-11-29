@@ -1,0 +1,14 @@
+@import 'settings';
+@import 'util/clearfix';
+@import 'modules/body';
+@import 'modules/html';
+@import 'modules/main';
+@import 'components/button';
+@import 'components/globalmessage';
+@import 'components/linkbutton';
+
+* {
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,9 @@
+html {
+  height: 100%;
+
+  //TODO change this depending on  requirements
+  &.no-localstorage .global-message.global-message--warning {
+    display: block;
+  }
+
+}
