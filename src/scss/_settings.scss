@@ -1,11 +1,14 @@
+/// @property {Color} text-color.default [#000] - Default text-color
 $text-color: (
-        default : #000
+        default : '#000'
 );
 
+/// @property {Number} border-radius.default [0.1875em] - Default border-radius
 $border-radius: (
         default: 0.1875em
 );
 
+/// @property {Number} z-stack.global-message [1000] - Z-stack global-message
 $z-stack: (
         global-message: 1000
 );
